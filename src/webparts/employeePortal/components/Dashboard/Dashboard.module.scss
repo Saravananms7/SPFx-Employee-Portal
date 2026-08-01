@@ -1,0 +1,73 @@
+.dashboard {
+
+  margin-top: 40px;
+
+}
+
+.dashboard h2 {
+
+  font-size: 28px;
+
+  margin-bottom: 20px;
+
+}
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+
+  gap: 20px;
+
+}
+
+.card {
+
+  background: white;
+
+  border-radius: 16px;
+
+  padding: 24px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+
+  transition: .3s;
+
+}
+
+.card:hover{
+
+  transform: translateY(-6px);
+
+}
+
+.icon{
+
+  font-size:40px;
+
+}
+
+.card h3{
+
+  margin:0;
+
+  color:#0078d4;
+
+  font-size:32px;
+
+}
+
+.card p{
+
+  margin-top:8px;
+
+  color:#666;
+
+}
