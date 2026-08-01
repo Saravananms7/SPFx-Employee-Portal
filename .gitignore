@@ -16,14 +16,25 @@ jest-output
 release
 solution
 temp
+sharepoint/solution/
 *.sppkg
 .heft
+*.tsbuildinfo
 
 # Coverage directory used by tools like istanbul
 coverage
 
 # OSX
 .DS_Store
+
+# Local environment and editor settings
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/*.code-workspace
+*.swp
+*.swo
 
 # Visual Studio files
 .ntvs_analysis.dat
